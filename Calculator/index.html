@@ -1,0 +1,64 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet"  href="style.css">
+</head>
+<body>
+ <div class="calculator">
+    <div class="but">
+      <button id="input" class="input"> </button>
+    </div>
+    
+    <div class="leftside">
+    <div class="zero">
+    <div class="operators">
+        <button id="plus" class=" box" onclick=operation(this.id)>+</button>
+        <button id="minus" class=" box" onclick=operation(this.id)>-</button>
+        <button id="multiply" class=" box" onclick=operation(this.id)>&times;</button>
+        <button id="divide" class=" box" onclick=operation(this.id)>&divide;</button>
+    </div>
+    </div>
+    <div class = "first">
+    <div class="numbers" id="num">
+        <button id="7" class="box" onclick=operation(this.id)>7</button>
+        <button id="8" class="box" onclick=operation(this.id)>8</button>
+        <button id="9" class="box" onclick=operation(this.id)>9</button>
+    </div>
+    </div>
+    <div class="second">
+    <div class="numbers">
+        <button id="4" class="box" onclick=operation(this.id)>4</button>
+        <button id="5" class="box" onclick=operation(this.id)>5</button>
+        <button id="6" class="box" onclick=operation(this.id)>6</button>
+    </div>
+    </div>
+    <div class="third">
+    <div class="numbers">
+        <button id="1" class="box" onclick=operation(this.id)>1</button>
+        <button id="2" class="box" onclick=operation(this.id)>2</button>
+        <button id="3" class="box" onclick=operation(this.id)>3</button>
+    </div>
+    </div>
+    <div class="fourth">
+    <div class="numbers">
+        <button id="0" class="box" onclick=operation(this.id)>0</button>
+        <button class="box">.</button>
+        <button id="clear" class="box" onclick=operation(this.id)>C</button>
+    </div>
+    </div>
+ </div>
+    <div class="fifth"> 
+    <button id="equal" class="equal box" onclick=operation(this.id)>=</button>
+ </div>
+</div> 
+    
+
+
+
+
+<script src="index.js" charset="utf-8"></script>
+</body>
+</html>

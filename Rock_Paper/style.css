@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+#parent{
+    text-align: center;
+    border: 5px solid black;
+    border-radius: 2rem;
+    background-color: antiquewhite;
+   padding: 15px;
+}
+#headings{
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     
+    
+}
+#playertext{
+    color: blue;
+    padding: 5px;
+}
+
+#computertext{
+    color: rgb(128, 187, 39);
+    padding: 5px;
+}
+
+#result{
+    color: rgb(214, 49, 49);
+    padding: 5px;
+}
+
+#buttonparent{
+    padding: 10px;
+    padding-bottom: 10px;
+}
+.buttons{
+    width: 150px;
+    line-height: 30px;
+   
+    font-size: 18px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(18, 63, 7);
+    padding: 5px;
+    
+    
+    border: 2px solid rgba(0, 0, 0, 0.452);
+    
+}
